@@ -339,6 +339,6 @@ with tab4:
     | Metric | Naive Baseline Mechanism | OptiBuy Dynamic Engine | Mathematical Impact |
     | :--- | :--- | :--- | :--- |
     | **Gross Margin** | Buyers fear spoilage, purchasing 60% spot API inventory at ₹9,800 vs 40% early pre-buy at ₹7,600. | Dynamic risk hedging increases confidence, safely shifting mix to 75% early wholesale blocks at ₹7,600. | Blended cost drops from ₹8,920 to ₹8,150, expanding net take rate by **+4.20% (+420 bps)**. |
-    | **Spoilage Loss** | Fixed room blocks held into check-in; when 22% of bookings cancel near check-in, inventory expires dead. | Resale hazard $\\sigma(t)$ flags decaying resale probability, triggering supplier release cutoffs before $T-14$. | Spoilage drops from 12.5% of committed stock to 4.0% (**-68% relative reduction**). |
+    | **Spoilage Loss** | Fixed room blocks held into check-in; when 22% of bookings cancel near check-in, inventory expires dead. | Resale hazard σ(t) flags decaying resale probability, triggering supplier release cutoffs before T−14. | Spoilage drops from 12.5% of committed stock to 4.0% (**-68% relative reduction**). |
     | **Search Failures** | Rigid corridor budgets run out on peak holiday dates, leaving agent search queries unserved. | Strategic Availability Floors reserve guaranteed buffer inventory for key high-CLV destinations. | Zero-availability search failure drops from 18.0% to 11.7% (**-35% relative reduction**). |
     """)

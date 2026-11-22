@@ -60,7 +60,10 @@ $$C_o(t) = c(t) \cdot [1 - \sigma(t)] + \text{Penalty}_{\text{supplier}}(t)$$
 
 ### 2. Dynamic Underage Cost: $C_u(t)$
 Integrates the complete business penalty of a stockout:
-$$C_u(t) = \underbrace{[p(t) - c(t)]}_{\text{Direct Margin}} + \underbrace{P_{\text{fail}} \cdot M_{\text{comp}}}_{\text{Competitor Displacement}} + \underbrace{P_{\text{defect}} \cdot \text{CLV}_{\text{agent}}}_{\text{Agency Lifetime Value at Risk}}$$
+
+**Cᵤ(t) = [p(t) − c(t)] + P₍fail₎ · M₍comp₎ + P₍defect₎ · CLV₍agent₎**
+
+The three terms represent **Direct Margin**, **Competitor Displacement**, and **Agency Lifetime Value at Risk**, respectively.
 * **$P_{\text{defect}}$:** Probability of travel agent platform abandonment due to recurring peak-date stockouts.
 * **$\text{CLV}_{\text{agent}}$:** Calibrated to **₹29.7 Lakhs** for high-volume Tier-1 agencies.
 
